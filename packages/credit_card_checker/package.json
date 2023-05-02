@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [],
+  "scripts": {
+    "test": "echo \"Hello From CC checker\""
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

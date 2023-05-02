@@ -1,0 +1,12 @@
+{
+  "name": "@small-projects/poker_strength",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello From Poker Strength\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
