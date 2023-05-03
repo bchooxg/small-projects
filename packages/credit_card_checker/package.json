@@ -1,15 +1,18 @@
 {
   "name": "@small-projects/credit_card_checker",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "keywords": [],
   "scripts": {
-    "test": "echo \"Hello From CC checker\""
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest",
+    "start": "http-server -c-1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "http-server": "^14.1.1",
     "moment": "^2.29.4",
     "vitest": "^0.30.1"
   }
