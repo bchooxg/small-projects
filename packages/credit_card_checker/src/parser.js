@@ -8,12 +8,11 @@ export function add(numbers) {
 }
 
 export function extractNumbers(formData) {
-  const numbers = [];
-
+  // should return a single number from the form data
+  console.log(formData)
   for (const [key, value] of formData) {
-    if (key.startsWith('num')) {
-      numbers.push(value);
+    if (key.startsWith('number')) {
+      return value;
     }
   }
-  return numbers;
 }

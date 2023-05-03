@@ -11,7 +11,7 @@ function validateCC(ccNumber) { // Returns True or False
   // split digits into array
   var ccNumberArray = ccNumber.split(''); // reverse array
   let newNum = 0;
-  // console.log(`final arr ${ccNumberArray}`)
+  // console.log(`start arr ${ccNumberArray}`)
   // double every second digit
   for(let i = 0; i < ccNumberArray.length; i++) {
     if(i % 2 == 0) {
