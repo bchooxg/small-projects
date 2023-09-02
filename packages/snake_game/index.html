@@ -23,11 +23,15 @@
   <script src="snake_game.js"></script>
   <script>
     function handleButtonClick() {
-      alert('hi')
-      console.log('test')
+      if (game) {
+        stopGame();
+      } else {
+        startGame();
+      }
     }
   </script>
-  <button onclick="handleButtonClick">Start/Stop</button>
+  <button onclick="handleButtonClick()">Start/Stop</button>
+  <h1 id="score">0</h1>
 
 </body>
 </html>
